@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <Identity>
+    <Civ>SHA</Civ>
+    <GenericName>SHA</GenericName>
+    <History>the.</History>
+    <Icon>emblems/SHA.png</Icon>
+  </Identity>
+</Entity>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_house_big">
+<!--   <Armour>
+    <Hack>1</Hack>
+    <Pierce>1</Pierce>
+    <Crush>1</Crush>
+    <Foundation>
+      <Hack>1</Hack>
+      <Pierce>1</Pierce>
+      <Crush>1</Crush>
+    </Foundation>
+  </Armour> -->
+  <BuildRestrictions>
+    <Territory>own neutral</Territory>
+  </BuildRestrictions>
+  <Footprint>
+    <Square width="10.0" depth="10.0"/>
+    <Height>1.0</Height>
+  </Footprint>
+  <Health>
+    <Max>400</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+  </Health>
+  <Capturable disable="" />
+<!--   <Cost>
+    <PopulationBonus>8</PopulationBonus>
+    <BuildTime>21</BuildTime>
+    <Resources>
+      <food>100</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost> -->
+  <Obstruction>
+    <Static width="8.0" depth="8.0"/>
+  </Obstruction>
+  <TerritoryInfluence disable=""/>
+  <Identity>
+    <Civ>SHA</Civ>
+    <SpecificName>Supply Depot</SpecificName>
+    <Icon>structures/SHA/supply_depot.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/SHA/supply_depot_glow.xml</Actor>
+  </VisualActor>
+</Entity>

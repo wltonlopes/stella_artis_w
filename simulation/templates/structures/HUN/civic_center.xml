@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_civil_centre">
+<!--   <Armour>
+    <Hack>1</Hack>
+    <Pierce>1</Pierce>
+    <Crush>1</Crush>
+    <Foundation>
+      <Hack>1</Hack>
+      <Pierce>1</Pierce>
+      <Crush>1</Crush>
+    </Foundation>
+  </Armour> -->
+  <BuildRestrictions>
+    <Territory>own neutral</Territory>
+    <Category>CivilCentre</Category>
+    <Distance>
+      <FromClass>CivilCentre</FromClass>
+      <MinDistance>200</MinDistance>
+    </Distance>
+  </BuildRestrictions>
+    <Capturable disable="" />
+<!--   <Cost>
+    <PopulationBonus>15</PopulationBonus>
+    <BuildTime>71</BuildTime>
+    <Resources>
+      <food>400</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost> -->
+<!--   <BuildingAI>
+    <DefaultArrowCount>5</DefaultArrowCount>
+    <GarrisonArrowMultiplier>0</GarrisonArrowMultiplier>
+  </BuildingAI> -->
+
+  <GarrisonHolder>
+    <Max>5</Max>
+    <EjectHealth>0.1</EjectHealth>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <List datatype="tokens">Support Infantry Cavalry</List>
+    <BuffHeal>1</BuffHeal>
+    <LoadingRange>1</LoadingRange>
+  </GarrisonHolder>
+  <Footprint>
+    <Square width="22.0" depth="22.0"/>
+    <Height>6.0</Height>
+  </Footprint>
+  <Health>
+    <Max>1500</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>HUN</Civ>
+    <Classes datatype="tokens">Defensive CivCentre</Classes>
+    <Icon>structures/HUN/civic_center.png</Icon>
+    <Tooltip>Build to acquire large tracts of territory. Train citizens.</Tooltip>
+    <VisibleClasses datatype="tokens">CivilCentre</VisibleClasses>
+    <SpecificName>Command Center</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="20.0" depth="20.0"/>
+  </Obstruction>
+  <Loot>
+    <xp>0</xp>
+    <food>0</food>
+    <wood>0</wood>
+    <stone>0</stone>
+    <metal>0</metal>
+  </Loot>
+  <ProductionQueue/>
+  <ResourceDropsite>
+    <Types>food wood</Types>
+    <Sharable>true</Sharable>
+  </ResourceDropsite>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_civ_center.xml</select>
+      <constructed>interface/complete/building/complete_civ_center.xml</constructed>
+      <alert_raise>interface/alarm/alarm_alert_0.xml</alert_raise>
+      <alert_end>interface/alarm/alarm_alert_1.xml</alert_end>
+    </SoundGroups>
+  </Sound>
+<!--   <ProductionQueue replace="">
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <TechCostMultiplier>
+      <food>1.0</food>
+      <wood>1.0</wood>
+      <stone>1.0</stone>
+      <metal>1.0</metal>
+      <time>1.0</time>
+    </TechCostMultiplier>
+    <Entities datatype="tokens">
+      units/HUN/worker
+    </Entities>
+  </ProductionQueue> -->
+
+  <Upgrade>
+    <PlanetaryFortress>
+      <Entity>structures/HUN/planetary_fortress</Entity>
+      <Tooltip>Reinforce with stone block, and install small torsion engines to upgrade this defense tower into an artillery tower.</Tooltip>
+      <RequiredTechnology>phase_city</RequiredTechnology>
+      <Cost>
+        <wood>150</wood>
+        <food>150</food>
+      </Cost>
+      <Time>36</Time>
+      <Variant>upgrading</Variant>
+    </PlanetaryFortress>
+  </Upgrade>
+  <!-- <TerritoryInfluence disable=""/> -->
+  <Trainer>
+    <Entities datatype="tokens">
+      units/HUN/worker
+    </Entities>
+  </Trainer>
+  <Vision>
+    <Range>90</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>structures/HUN/civic_center.xml</Actor>
+    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,40 @@
+{
+	"Code": "ARC",
+	"Culture": "TBD.",
+	"Music": [],
+	"Factions": [
+		{
+			"Name": "ARC",
+			"Description": "The last remants of humanity lost throughout space.",
+			"Technologies": [
+			],
+			"Heroes": [
+			]
+		}
+	],
+	"CivBonuses": [],
+	"TeamBonuses": [],
+	"Structures": [],
+	"WallSets": [],
+	"StartEntities": [
+		{
+			"Template": "structures/ARC/civic_center"
+		},
+		{
+			"Template": "units/ARC/worker",
+			"Count": 8
+		}
+	],
+	"AINames": [
+		"Earth"
+	],
+	"SkirmishReplacements": {
+		"skirmish/structures/default_house_5": "structures/ARC/supply_depot",
+		"skirmish/structures/default_civil_centre": "structures/ARC/civic_center",
+		"skirmish/units/default_support_female_citizen": "units/ARC/worker",
+		"skirmish/units/default_cavalry": "units/ARC/worker",
+		"skirmish/units/default_infantry_ranged_b": "units/ARC/worker",
+		"skirmish/units/default_infantry_melee_b": "units/ARC/worker"
+	},
+	"SelectableInGameSetup": true
+}

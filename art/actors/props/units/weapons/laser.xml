@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="Base">
+      <mesh>props/laser_p.dae</mesh>
+        <props>
+          <prop actor="particle/lazer.xml" attachpoint="root"/>
+        </props>
+      <textures>
+      <texture file="props/armor_space.png" name="baseTex"/>
+      </textures>
+    </variant> 
+  </group>
+  <material>default.xml</material>
+</actor>

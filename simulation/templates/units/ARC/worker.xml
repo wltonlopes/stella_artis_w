@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_spearman">
+<!--   <Armour>
+    <Hack>0</Hack>
+    <Pierce>0</Pierce>
+    <Crush>0</Crush>
+  </Armour>
+  <Cost>
+    <BuildTime>17</BuildTime>
+    <Resources>
+      <food>50</food>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>45</Max>
+  </Health> -->
+  <Attack>
+    <Melee>
+      <Damage>
+        <Hack>5</Hack>
+        <Pierce>0.0</Pierce>
+        <Crush>0.0</Crush>
+      </Damage>
+      <MaxRange>4</MaxRange>
+      <PrepareTime>0</PrepareTime>
+      <RepeatTime>1070</RepeatTime>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+    </Melee>
+  </Attack>
+  <Promotion disable=""/>
+  <Builder replace="">
+    <Rate>1.0</Rate>
+    <Entities datatype="tokens">
+      structures/ARC/engineering_bay
+      structures/ARC/civic_center
+      structures/ARC/supply_depot
+      structures/ARC/bunker
+      structures/ARC/refinery
+    </Entities>
+  </Builder>
+  <UnitMotion>
+    <WalkSpeed>11.24</WalkSpeed>
+  </UnitMotion>
+  <Identity>
+    <Civ>ARC</Civ>
+    <Lang>greek</Lang>
+    <SpecificName>Worker</SpecificName>
+    <GenericName>Worker</GenericName>
+    <Icon>units/ARC/worker.png</Icon>
+    <SelectionGroupName>units/worker</SelectionGroupName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/ARC/worker.xml</Actor>
+  </VisualActor>
+</Entity>

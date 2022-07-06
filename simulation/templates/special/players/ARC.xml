@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <Identity>
+    <Civ>ARC</Civ>
+    <GenericName>ARC</GenericName>
+    <History>the.</History>
+    <Icon>emblems/ARC.png</Icon>
+  </Identity>
+</Entity>

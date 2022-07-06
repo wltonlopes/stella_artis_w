@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_tower">
+  <Attack>
+    <Ranged>
+      <Origin>
+        <X>0</X>
+        <Y>5</Y>
+        <Z>0</Z>
+      </Origin>
+    </Ranged>
+  </Attack>
+<!--   <Armour>
+    <Hack>1</Hack>
+    <Pierce>1</Pierce>
+    <Crush>1</Crush>
+    <Foundation>
+      <Hack>1</Hack>
+      <Pierce>1</Pierce>
+      <Crush>1</Crush>
+    </Foundation>
+  </Armour> -->
+  <Capturable disable="" />
+  <BuildRestrictions>
+    <Territory>own neutral</Territory>
+  </BuildRestrictions>
+  <Footprint>
+    <Square width="10.0" depth="10.0"/>
+    <Height>1.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <Max>5</Max>
+    <EjectHealth>0.1</EjectHealth>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <List datatype="tokens">Support Infantry Cavalry</List>
+    <BuffHeal>1</BuffHeal>
+    <LoadingRange>1</LoadingRange>
+  </GarrisonHolder>
+  <Identity>
+    <Civ>HUN</Civ>
+    <SpecificName>Bunker</SpecificName>
+    <Icon>structures/HUN/bunker.png</Icon>
+  </Identity>
+  <Obstruction>
+    <Static width="8.0" depth="8.0"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/HUN/bunker.xml</Actor>
+  </VisualActor>
+</Entity>
