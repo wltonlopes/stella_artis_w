@@ -5,26 +5,31 @@
     <Pierce>0</Pierce>
     <Crush>0</Crush>
   </Armour> -->
-<!--   <Cost>
+  <Cost>
     <BuildTime>17</BuildTime>
     <Resources>
       <food>50</food>
     </Resources>
   </Cost>
+  <Decay>
+    <SinkingAnim>true</SinkingAnim>
+    <DelayTime>0.0</DelayTime>
+    <SinkRate>3.0</SinkRate>
+    <SinkAccel>7.0</SinkAccel>
+  </Decay>
   <Health>
     <Max>45</Max>
-  </Health> -->
+  </Health>
   <Attack>
     <Melee>
       <Damage>
-        <Hack>5</Hack>
+        <Hack>3</Hack>
         <Pierce>0.0</Pierce>
         <Crush>0.0</Crush>
       </Damage>
       <MaxRange>4</MaxRange>
-      <PrepareTime>0</PrepareTime>
+      <PrepareTime>5000</PrepareTime>
       <RepeatTime>1070</RepeatTime>
-      <PreferredClasses datatype="tokens">Human</PreferredClasses>
     </Melee>
   </Attack>
   <Promotion disable=""/>
@@ -43,6 +48,7 @@
     <WalkSpeed>11.24</WalkSpeed>
   </UnitMotion>
   <Identity>
+    <VisibleClasses datatype="tokens">WorkerDrone</VisibleClasses>
     <Civ>HUN</Civ>
     <Lang>greek</Lang>
     <SpecificName>Worker</SpecificName>
@@ -50,6 +56,18 @@
     <Icon>units/HUN/worker.png</Icon>
     <SelectionGroupName>units/worker</SelectionGroupName>
   </Identity>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>0</Hack>
+        <Pierce>0</Pierce>
+        <Crush>0</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
+    <TrainingRestrictions>
+    <Category>WorkerDrone</Category>
+  </TrainingRestrictions>
   <VisualActor>
     <Actor>units/HUN/worker.xml</Actor>
   </VisualActor>

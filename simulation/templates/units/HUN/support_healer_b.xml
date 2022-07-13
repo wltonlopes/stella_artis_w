@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_healer">
+  <Identity>
+    <Civ>HUN</Civ>
+    <SelectionGroupName>units/HUN/support_healer_b</SelectionGroupName>
+    <GenericName></GenericName>
+    <SpecificName></SpecificName>
+    <Icon>units/HUN/healer.png</Icon> 
+  </Identity> 
+  <Promotion disabled=""/>
+  <VisualActor>
+    <Actor>units/HUN/medical_support.xml</Actor>
+  </VisualActor>
+</Entity> 

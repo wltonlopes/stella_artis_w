@@ -20,7 +20,7 @@
     <variant file="biped/attack_capture.xml"/>
     <variant file="biped/death_infantry.xml"/>
     <variant file="biped/assault_rifle/shoot_crouched_1.xml" name="Attack_Ranged"/>
-    <variant file="biped/assault_rifle/ready_2.xml" name="ready"/>
+    <variant file="biped/assault_rifle/ready_2.xml" name="Idle"/>
   </group>
   <material>player_trans.xml</material>
 </actor>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit">
+  <Attack>
+    <Ranged>
+      <AttackName context="Name of an attack of a World War II fighter plane.">Machine Guns</AttackName>
+      <Damage>
+        <Pierce>1</Pierce>
+        <Crush>1</Crush>
+      </Damage>
+      <MaxRange>100</MaxRange>
+      <MinRange>20</MinRange>
+      <PrepareTime>10000</PrepareTime>
+      <RepeatTime>10000</RepeatTime>
+      <RestrictedClasses datatype="tokens">Structure Field Organic</RestrictedClasses>
+      <Projectile>
+        <Speed>55</Speed>
+        <Spread>3</Spread>
+        <Gravity>9.81</Gravity>
+        <FriendlyFire>true</FriendlyFire>
+        <LaunchPoint y="10"/>
+      </Projectile>
+    </Ranged>
+  </Attack>
+  <BuildingAI>
+    <DefaultArrowCount>3</DefaultArrowCount>
+    <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
+    <GarrisonArrowClasses>Infantry</GarrisonArrowClasses>
+  </BuildingAI>
+    <Cost>
+    <BuildTime>9</BuildTime>
+    <Resources>
+      <food>0</food>
+      <metal>0</metal>
+      <stone>0</stone>
+      <wood>0</wood>
+    </Resources>
+  </Cost>
+  <Decay>
+    <SinkingAnim>true</SinkingAnim>
+    <DelayTime>0.0</DelayTime>
+    <SinkRate>3.0</SinkRate>
+    <SinkAccel>7.0</SinkAccel>
+  </Decay>
+  <GarrisonHolder>
+    <Max>1</Max>
+    <EjectHealth>0</EjectHealth>
+    <List datatype="tokens">Support Infantry</List>
+    <BuffHeal>1</BuffHeal>
+    <LoadingRange>5</LoadingRange>
+    <EjectClassesOnDestroy datatype="tokens"/>
+  </GarrisonHolder>
+  <Health>
+    <Max>100</Max>
+    <Unhealable>true</Unhealable>
+  </Health>
+
+  <Identity>
+    <Civ>HUN</Civ>
+    <SelectionGroupName>units/drone</SelectionGroupName>
+    <VisibleClasses datatype="tokens">drone</VisibleClasses>
+    <GenericName></GenericName>
+    <SpecificName>Drone</SpecificName>
+    <Icon>units/maya_blowgunner.png</Icon>
+     <RequiredTechnology>phase_village</RequiredTechnology>
+  </Identity>
+    <Obstruction disable=""/>
+  <Position>
+    <Altitude>2</Altitude>
+    <Anchor>upright</Anchor>
+    <Floating>true</Floating>
+    <FloatDepth>10</FloatDepth>
+    <TurnRate>10</TurnRate>
+  </Position>
+      <Sound>
+    <SoundGroups>
+    <attack_ranged>attack/weapon/rifle_attack.xml</attack_ranged>
+    </SoundGroups>
+  </Sound>
+  <UnitAI>
+    <DefaultStance>passive</DefaultStance>
+    <FormationController>false</FormationController>
+    <CanGuard>false</CanGuard>
+    <CanPatrol>false</CanPatrol>
+    <PatrolWaitTime>0</PatrolWaitTime>
+    <RoamDistance>1000.0</RoamDistance>
+    <FleeDistance>10.0</FleeDistance>
+    <RoamTimeMin>10000</RoamTimeMin>
+    <RoamTimeMax>100000</RoamTimeMax>
+    <FeedTimeMin>1</FeedTimeMin>
+    <FeedTimeMax>2</FeedTimeMax>
+  </UnitAI>
+  <UnitMotion disable=""/>
+  <UnitMotionFlying>
+    <MaxSpeed>30.0</MaxSpeed>
+    <TakeoffSpeed>0</TakeoffSpeed>
+    <LandingSpeed>0</LandingSpeed>
+    <AccelRate>25.0</AccelRate>
+    <SlowingRate>0</SlowingRate>
+    <BrakingRate>0</BrakingRate>
+    <TurnRate>2.0</TurnRate>
+    <OvershootTime>2.0</OvershootTime>
+    <FlyingHeight>50.0</FlyingHeight>
+    <ClimbRate>15.0</ClimbRate>
+    <DiesInWater>true</DiesInWater>
+    <PassabilityClass>unrestricted</PassabilityClass>
+  </UnitMotionFlying>
+  <Vision>
+    <Range>100</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>units/HUN/drone_quetzalcoatl.xml</Actor>
+  </VisualActor>
+</Entity>

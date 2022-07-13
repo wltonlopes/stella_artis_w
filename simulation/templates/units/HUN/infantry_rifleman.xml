@@ -4,7 +4,7 @@
     <Ranged>
       <AttackName>Rifler</AttackName>
       <Damage>
-        <Pierce>2.0</Pierce>
+        <Pierce>10.0</Pierce>
       </Damage>
       <MaxRange>40</MaxRange>
       <PrepareTime>700</PrepareTime>
@@ -32,7 +32,7 @@
     <Civ>HUN</Civ>
     <GenericName>Space troops</GenericName>
     <SpecificName>Space Troops</SpecificName>
-         <RequiredTechnology>phase_village</RequiredTechnology>
+    <RequiredTechnology>phase_village</RequiredTechnology>
     <Icon>units/athen/support_citizen.png</Icon>
   </Identity>
   <Sound>

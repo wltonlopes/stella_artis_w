@@ -24,9 +24,10 @@
   </Obstruction>
     <Trainer>
     <Entities datatype="tokens">
-      units/{civ}/infantry_rifleman_heavy
+      units/{civ}/drone_fighter
       units/{civ}/infantry_rifleman_hunter
       units/{civ}/support_healer
+      units/{civ}/tank_ares
       units/{civ}/infantry_rifleman
     </Entities>
   </Trainer>
