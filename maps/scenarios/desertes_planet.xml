@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scenario version="7">
+	<Environment>
+		<SkySet>default</SkySet>
+		<SunColor r="1" g="0.921569" b="0.721569"/>
+		<SunElevation angle="0.785398"/>
+		<SunRotation angle="-0.785396"/>
+		<AmbientColor r="0.521569" g="0.364706" b="0.313726"/>
+		<Fog>
+			<FogFactor>0.00861328</FogFactor>
+			<FogThickness>0.5</FogThickness>
+			<FogColor r="1" g="0.313726" b="0.231373"/>
+		</Fog>
+		<Water>
+			<WaterBody>
+				<Type>ocean</Type>
+				<Color r="0.294118" g="0.34902" b="0.694118"/>
+				<Tint r="0.27451" g="0.294118" b="0.584314"/>
+				<Height>5</Height>
+				<Waviness>4</Waviness>
+				<Murkiness>0.45</Murkiness>
+				<WindAngle>0</WindAngle>
+			</WaterBody>
+		</Water>
+		<Postproc>
+			<Brightness>0</Brightness>
+			<Contrast>1</Contrast>
+			<Saturation>0.99</Saturation>
+			<Bloom>0.1999</Bloom>
+			<PostEffect>default</PostEffect>
+		</Postproc>
+	</Environment>
+	<Camera>
+		<Position x="338.921" y="249.809" z="353.777"/>
+		<Rotation angle="1.3934"/>
+		<Declination angle="0.364743"/>
+	</Camera>
+	<ScriptSettings><![CDATA[
+{
+  "AISeed": 0,
+  "AllyView": false,
+  "CircularMap": true,
+  "Description": "Give an interesting description of your map.",
+  "Keywords": [],
+  "LockTeams": false,
+  "Name": "Desert Planet map",
+  "Nomad": false,
+  "PlayerData": [
+    "",
+    {
+      "Civ": "terran"
+    },
+    {
+      "Civ": "terran"
+    },
+    {
+      "Civ": "terran"
+    },
+    {
+      "Civ": "terran"
+    },
+    {
+      "Civ": "terran"
+    },
+    {
+      "Civ": "terran"
+    },
+    {
+      "Civ": "terran"
+    },
+    {
+      "Civ": "terran"
+    }
+  ],
+  "Preview": "",
+  "RevealMap": false,
+  "Script": "canyon.js",
+  "Seed": 0,
+  "Size": 256,
+  "SupportedBiomes": "generic/",
+  "VictoryConditions": []
+}
+]]></ScriptSettings>
+	<Entities>
+		<Entity uid="11">
+			<Template>structures/HUN/civic_center</Template>
+			<Player>1</Player>
+			<Position x="422.93284" z="422.81528"/>
+			<Orientation y="2.38337"/>
+			<Actor seed="57735"/>
+		</Entity>
+		<Entity uid="12">
+			<Template>structures/HUN/refinery</Template>
+			<Player>1</Player>
+			<Position x="471.91208" z="413.45276"/>
+			<Orientation y="-2.33245"/>
+			<Actor seed="58418"/>
+		</Entity>
+		<Entity uid="13">
+			<Template>structures/HUN/engineering_bay</Template>
+			<Player>1</Player>
+			<Position x="475.03162" z="359.24845"/>
+			<Orientation y="-0.80425"/>
+			<Actor seed="56029"/>
+		</Entity>
+		<Entity uid="14">
+			<Template>structures/HUN/house</Template>
+			<Player>1</Player>
+			<Position x="434.52616" z="454.46583"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="27274"/>
+		</Entity>
+		<Entity uid="15">
+			<Template>structures/HUN/house</Template>
+			<Player>1</Player>
+			<Position x="445.89374" z="459.62302"/>
+			<Orientation y="2.34907"/>
+			<Actor seed="64236"/>
+		</Entity>
+		<Entity uid="16">
+			<Template>structures/HUN/house</Template>
+			<Player>1</Player>
+			<Position x="457.8213" z="454.08207"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="44130"/>
+		</Entity>
+		<Entity uid="17">
+			<Template>structures/HUN/house</Template>
+			<Player>1</Player>
+			<Position x="466.12592" z="444.67481"/>
+			<Orientation y="-2.36045"/>
+			<Actor seed="19853"/>
+		</Entity>
+		<Entity uid="18">
+			<Template>structures/HUN/house</Template>
+			<Player>1</Player>
+			<Position x="457.69385" z="429.41028"/>
+			<Orientation y="-0.70484"/>
+			<Actor seed="47714"/>
+		</Entity>
+		<Entity uid="19">
+			<Template>structures/HUN/house</Template>
+			<Player>1</Player>
+			<Position x="437.524" z="441.50211"/>
+			<Orientation y="-0.816"/>
+			<Actor seed="42754"/>
+		</Entity>
+		<Entity uid="20">
+			<Template>structures/HUN/barracks</Template>
+			<Player>1</Player>
+			<Position x="488.06592" z="388.86072"/>
+			<Orientation y="-2.29728"/>
+			<Actor seed="20018"/>
+		</Entity>
+		<Entity uid="21">
+			<Template>units/HUN/tank_ares</Template>
+			<Player>1</Player>
+			<Position x="418.69721" z="330.90723"/>
+			<Orientation y="-2.29358"/>
+			<Actor seed="21969"/>
+		</Entity>
+		<Entity uid="22">
+			<Template>units/HUN/tank_ares</Template>
+			<Player>1</Player>
+			<Position x="440.32483" z="320.00129"/>
+			<Orientation y="-3.11284"/>
+			<Actor seed="26136"/>
+		</Entity>
+		<Entity uid="23">
+			<Template>units/HUN/worker</Template>
+			<Player>1</Player>
+			<Position x="464.29523" z="318.77128"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="3085"/>
+		</Entity>
+		<Entity uid="24">
+			<Template>units/HUN/worker</Template>
+			<Player>1</Player>
+			<Position x="472.82776" z="322.49564"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="48976"/>
+		</Entity>
+		<Entity uid="25">
+			<Template>units/HUN/worker</Template>
+			<Player>1</Player>
+			<Position x="476.49152" z="315.68546"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="48976"/>
+		</Entity>
+		<Entity uid="26">
+			<Template>units/HUN/worker</Template>
+			<Player>1</Player>
+			<Position x="465.71946" z="308.86667"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="49454"/>
+		</Entity>
+		<Entity uid="27">
+			<Template>units/HUN/worker</Template>
+			<Player>1</Player>
+			<Position x="487.0192" z="324.07462"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="49454"/>
+		</Entity>
+		<Entity uid="28">
+			<Template>units/HUN/worker</Template>
+			<Player>1</Player>
+			<Position x="400.71155" z="369.99155"/>
+			<Orientation y="-1.63173"/>
+			<Actor seed="35546"/>
+		</Entity>
+		<Entity uid="29">
+			<Template>units/HUN/worker</Template>
+			<Player>1</Player>
+			<Position x="408.85706" z="353.04957"/>
+			<Orientation y="-1.271"/>
+			<Actor seed="21350"/>
+		</Entity>
+		<Entity uid="30">
+			<Template>units/HUN/worker</Template>
+			<Player>1</Player>
+			<Position x="398.04288" z="358.4662"/>
+			<Orientation y="-1.14289"/>
+			<Actor seed="62192"/>
+		</Entity>
+		<Entity uid="31">
+			<Template>units/HUN/worker</Template>
+			<Player>1</Player>
+			<Position x="391.17985" z="372.69715"/>
+			<Orientation y="-1.28418"/>
+			<Actor seed="3496"/>
+		</Entity>
+		<Entity uid="32">
+			<Template>units/HUN/worker</Template>
+			<Player>1</Player>
+			<Position x="390.31806" z="359.97352"/>
+			<Orientation y="-0.9432"/>
+			<Actor seed="23993"/>
+		</Entity>
+		<Entity uid="33">
+			<Template>units/HUN/infantry_rifleman</Template>
+			<Player>1</Player>
+			<Position x="444.24393" z="356.55585"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="53679"/>
+		</Entity>
+		<Entity uid="34">
+			<Template>units/HUN/infantry_rifleman</Template>
+			<Player>1</Player>
+			<Position x="446.58381" z="359.90162"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="43914"/>
+		</Entity>
+		<Entity uid="35">
+			<Template>units/HUN/infantry_rifleman</Template>
+			<Player>1</Player>
+			<Position x="449.19285" z="363.16907"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="35454"/>
+		</Entity>
+		<Entity uid="36">
+			<Template>units/HUN/infantry_rifleman</Template>
+			<Player>1</Player>
+			<Position x="444.81263" z="354.13785"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="9506"/>
+		</Entity>
+		<Entity uid="37">
+			<Template>units/HUN/infantry_rifleman</Template>
+			<Player>1</Player>
+			<Position x="447.03293" z="357.07123"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="54487"/>
+		</Entity>
+		<Entity uid="38">
+			<Template>units/HUN/infantry_rifleman</Template>
+			<Player>1</Player>
+			<Position x="449.04291" z="359.81226"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="54487"/>
+		</Entity>
+		<Entity uid="39">
+			<Template>units/HUN/infantry_rifleman</Template>
+			<Player>1</Player>
+			<Position x="451.20295" z="362.81263"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="61159"/>
+		</Entity>
+		<Entity uid="40">
+			<Template>units/HUN/infantry_rifleman</Template>
+			<Player>1</Player>
+			<Position x="446.05521" z="352.89344"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="61159"/>
+		</Entity>
+		<Entity uid="41">
+			<Template>units/HUN/infantry_rifleman</Template>
+			<Player>1</Player>
+			<Position x="449.05842" z="356.01679"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="52274"/>
+		</Entity>
+		<Entity uid="42">
+			<Template>units/HUN/infantry_rifleman</Template>
+			<Player>1</Player>
+			<Position x="451.98282" z="359.94965"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="31582"/>
+		</Entity>
+		<Entity uid="43">
+			<Template>units/HUN/infantry_rifleman</Template>
+			<Player>1</Player>
+			<Position x="454.25287" z="363.39136"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="31582"/>
+		</Entity>
+		<Entity uid="44">
+			<Template>units/HUN/infantry_rifleman</Template>
+			<Player>1</Player>
+			<Position x="448.03287" z="353.38535"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="64798"/>
+		</Entity>
+		<Entity uid="45">
+			<Template>units/HUN/infantry_rifleman</Template>
+			<Player>1</Player>
+			<Position x="451.38361" z="357.01679"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="49018"/>
+		</Entity>
+		<Entity uid="46">
+			<Template>units/HUN/infantry_rifleman</Template>
+			<Player>1</Player>
+			<Position x="454.35096" z="361.6425"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="49018"/>
+		</Entity>
+		<Entity uid="47">
+			<Template>structures/HUN/bunker</Template>
+			<Player>1</Player>
+			<Position x="493.81983" z="330.28165"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="40666"/>
+		</Entity>
+		<Entity uid="49">
+			<Template>structures/HUN/bunker</Template>
+			<Player>1</Player>
+			<Position x="387.38602" z="431.70212"/>
+			<Orientation y="-1.12836"/>
+			<Actor seed="6554"/>
+		</Entity>
+		<Entity uid="50">
+			<Template>structures/HUN/bunker</Template>
+			<Player>1</Player>
+			<Position x="482.10291" z="467.56333"/>
+			<Orientation y="0.74401"/>
+			<Actor seed="689"/>
+		</Entity>
+		<Entity uid="51">
+			<Template>units/HUN/drone_fighter</Template>
+			<Player>1</Player>
+			<Position x="401.94034" z="414.00214"/>
+			<Orientation y="-0.70989"/>
+			<Actor seed="25375"/>
+		</Entity>
+		<Entity uid="52">
+			<Template>units/HUN/drone_fighter</Template>
+			<Player>1</Player>
+			<Position x="501.33643" z="370.9243"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="61908"/>
+		</Entity>
+	</Entities>
+	<Paths/>
+</Scenario>

@@ -2,15 +2,15 @@
 <Entity parent="template_structure_special">
   <ResourceTrickle>
     <Rates>
-      <wood>4.0</wood>
+      <food>4.0</food>
     </Rates>
     <Interval>4000</Interval>
   </ResourceTrickle>
   <Cost>
     <BuildTime>21</BuildTime>
     <Resources>
-      <food>75</food>
-      <wood>0</wood>
+      <food>0</food>
+      <wood>40</wood>
       <stone>0</stone>
       <metal>0</metal>
     </Resources>
@@ -48,6 +48,13 @@
   </Obstruction>
   <ProductionQueue disable=""/>
   <RallyPoint disable=""/>
+  <ResourceSupply>
+    <KillBeforeGather>false</KillBeforeGather>
+    <Max>Infinity</Max>
+    <Type>food.grain</Type>
+    <MaxGatherers>3</MaxGatherers>
+    <DiminishingReturns>0.90</DiminishingReturns>
+  </ResourceSupply>
   <Sound>
     <SoundGroups>
       <select>interface/select/building/sel_ffactri.xml</select>
