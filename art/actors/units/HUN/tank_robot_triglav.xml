@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Space Tank">
+      <mesh>units/HUN/tank_t1.dae</mesh>
+       <props>
+        <prop actor="props/units/weapons/missil.xml" attachpoint="projectile"/>  
+      </props>
+      <textures>
+        <texture file="structural/terran/HUN_struct.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="Idle"/>
+    <variant name="death">
+      <props>
+        <prop actor="particle/destruction_dust_small.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+</actor>

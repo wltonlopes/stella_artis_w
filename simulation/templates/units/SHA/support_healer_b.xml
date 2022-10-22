@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_healer">
+  <Identity>
+    <Civ>HUN</Civ>
+    <SelectionGroupName>units/HUN/support_healer_b</SelectionGroupName>
+    <GenericName></GenericName>
+    <SpecificName></SpecificName>
+    <Icon>units/HUN/healer.png</Icon> 
+  </Identity>
+
+  <Position>
+    <Altitude>7</Altitude>
+    <Anchor>pitch</Anchor>
+    <Floating>true</Floating>
+    <FloatDepth>5</FloatDepth>
+    <TurnRate>2</TurnRate>
+  </Position>
+    <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/SHA/sacre.xml</Actor>
+  </VisualActor>
+</Entity> 

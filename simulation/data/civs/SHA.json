@@ -21,8 +21,12 @@
 			"Template": "structures/SHA/civic_center"
 		},
 		{
-			"Template": "units/SHA/worker",
-			"Count": 8
+			"Template": "units/SHA/infantry_rifleman",
+			"Count": 4
+		},
+		{
+			"Template": "units/SHA/support_female_citizen",
+			"Count": 6
 		}
 	],
 	"AINames": [
@@ -31,10 +35,10 @@
 	"SkirmishReplacements": {
 		"skirmish/structures/default_house_5": "structures/SHA/supply_depot",
 		"skirmish/structures/default_civil_centre": "structures/SHA/civic_center",
-		"skirmish/units/default_support_female_citizen": "units/SHA/worker",
-		"skirmish/units/default_cavalry": "units/SHA/worker",
-		"skirmish/units/default_infantry_ranged_b": "units/SHA/worker",
-		"skirmish/units/default_infantry_melee_b": "units/SHA/worker"
+		"skirmish/units/default_support_female_citizen": "units/SHA/support_female_citizen",
+		"skirmish/units/default_cavalry": "units/SHA/infantry_rifleman",
+		"skirmish/units/default_infantry_ranged_b": "units/SHA/infantry_rifleman",
+		"skirmish/units/default_infantry_melee_b": "units/SHA/infantry_rifleman"
 	},
 	"SelectableInGameSetup": true
 }

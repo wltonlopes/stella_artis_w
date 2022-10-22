@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_civic">
+<Entity parent="template_structure_civic_civil_centre">
 <!--   <Armour>
     <Hack>1</Hack>
     <Pierce>1</Pierce>
@@ -18,6 +18,7 @@
       <MinDistance>200</MinDistance>
     </Distance>
   </BuildRestrictions>
+    <Capturable disable="" />
 <!--   <Cost>
     <PopulationBonus>15</PopulationBonus>
     <BuildTime>71</BuildTime>
@@ -28,11 +29,11 @@
       <metal>0</metal>
     </Resources>
   </Cost> -->
-  <BuildingAI>
+<!--   <BuildingAI>
     <DefaultArrowCount>5</DefaultArrowCount>
     <GarrisonArrowMultiplier>0</GarrisonArrowMultiplier>
-  </BuildingAI>
-  <Capturable disable="" />
+  </BuildingAI> -->
+
   <GarrisonHolder>
     <Max>5</Max>
     <EjectHealth>0.1</EjectHealth>
@@ -67,6 +68,7 @@
     <stone>0</stone>
     <metal>0</metal>
   </Loot>
+  <ProductionQueue/>
   <ResourceDropsite>
     <Types>food wood</Types>
     <Sharable>true</Sharable>
@@ -89,13 +91,13 @@
       <time>1.0</time>
     </TechCostMultiplier>
     <Entities datatype="tokens">
-      units/SHA/worker
+      units/HUN/worker
     </Entities>
   </ProductionQueue> -->
 
   <Upgrade>
     <PlanetaryFortress>
-      <Entity>structures/SHA/planetary_fortress</Entity>
+      <Entity>structures/HUN/planetary_fortress</Entity>
       <Tooltip>Reinforce with stone block, and install small torsion engines to upgrade this defense tower into an artillery tower.</Tooltip>
       <RequiredTechnology>phase_city</RequiredTechnology>
       <Cost>
@@ -106,10 +108,12 @@
       <Variant>upgrading</Variant>
     </PlanetaryFortress>
   </Upgrade>
-  <TerritoryInfluence disable=""/>
+  <!-- <TerritoryInfluence disable=""/> -->
   <Trainer>
     <Entities datatype="tokens">
       units/SHA/worker
+      units/SHA/infantry_rifleman_rpg
+      units/SHA/infantry_rifleman
     </Entities>
   </Trainer>
   <Vision>

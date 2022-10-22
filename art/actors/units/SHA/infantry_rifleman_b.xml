@@ -39,5 +39,5 @@
     <variant file="biped/build_farm.xml"/>
     <variant file="biped/death_infantry.xml"/>
   </group>
-  <material>basic_trans_parallax_spec.xml</material>
+  <material>player_trans.xml</material>
 </actor>

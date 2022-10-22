@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <group>
+    <variant frequency="1" name="Terran Civic Center">
+      <mesh>structures/SHA/rep_reator.dae</mesh>
+      <props>
+        <prop actor="structures/decals/dirt_human_9x9.xml" attachpoint="root"/>
+        <prop actor="particle/gohma_firechargeB.xml" attachpoint="reac_energy"/>
+      </props>
+      <textures>
+        <texture file="structural/reptilian_struct.png" name="baseTex"/>
+        <texture file="structural/space_spec.png" name="specTex"/>
+        <texture file="structural/space_norm.png" name="normTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans_parallax_spec.xml</material>
+</actor>  

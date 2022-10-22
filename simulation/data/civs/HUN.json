@@ -25,7 +25,7 @@
 			"Count": 4
 		},
 		{
-			"Template": "units/HUN/worker",
+			"Template": "units/HUN/support_female_citizen",
 			"Count": 6
 		}
 	],
@@ -35,7 +35,7 @@
 	"SkirmishReplacements": {
 		"skirmish/structures/default_house_5": "structures/HUN/supply_depot",
 		"skirmish/structures/default_civil_centre": "structures/HUN/civic_center",
-		"skirmish/units/default_support_female_citizen": "units/HUN/worker",
+		"skirmish/units/default_support_female_citizen": "units/HUN/support_female_citizen",
 		"skirmish/units/default_cavalry": "units/HUN/drone_fighter",
 		"skirmish/units/default_infantry_ranged_b": "units/HUN/infantry_rifleman",
 		"skirmish/units/default_infantry_melee_b": "units/HUN/infantry_rifleman"

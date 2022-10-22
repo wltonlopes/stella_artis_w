@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_spearman">
+<!--   <Armour>
+    <Hack>0</Hack>
+    <Pierce>0</Pierce>
+    <Crush>0</Crush>
+  </Armour> -->
+  <Cost>
+    <BuildTime>17</BuildTime>
+    <Resources>
+      <food>50</food>
+    </Resources>
+  </Cost>
+  <Decay>
+    <SinkingAnim>true</SinkingAnim>
+    <DelayTime>0.0</DelayTime>
+    <SinkRate>3.0</SinkRate>
+    <SinkAccel>7.0</SinkAccel>
+  </Decay>
+  <Health>
+    <Max>45</Max>
+  </Health>
+  <Attack>
+    <Melee>
+      <Damage>
+        <Hack>3</Hack>
+        <Pierce>0.0</Pierce>
+        <Crush>0.0</Crush>
+      </Damage>
+      <MaxRange>4</MaxRange>
+      <PrepareTime>5000</PrepareTime>
+      <RepeatTime>1070</RepeatTime>
+    </Melee>
+  </Attack>
+  <Promotion disable=""/>
+  <Builder replace="">
+    <Rate>1.0</Rate>
+    <Entities datatype="tokens">
+      structures/SHA/civic_center
+      structures/SHA/house
+      structures/SHA/barracks
+      structures/SHA/field
+      structures/SHA/farmstead
+      structures/SHA/defense_tower      
+    </Entities>
+  </Builder>
+  <UnitMotion>
+    <WalkSpeed>11.24</WalkSpeed>
+  </UnitMotion>
+  <Identity>
+    <VisibleClasses datatype="tokens">WorkerDrone</VisibleClasses>
+    <Civ>SHA</Civ>
+    <Lang>greek</Lang>
+    <SpecificName>Worker</SpecificName>
+    <GenericName>Worker</GenericName>
+    <Icon>units/SHA/worker.png</Icon>
+    <SelectionGroupName>units/worker</SelectionGroupName>
+  </Identity>
+    <Position>
+    <Altitude>5</Altitude>
+    <Anchor>pitch</Anchor>
+    <Floating>true</Floating>
+    <FloatDepth>5</FloatDepth>
+    <TurnRate>2</TurnRate>
+  </Position>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>0</Hack>
+        <Pierce>0</Pierce>
+        <Crush>0</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
+    <TrainingRestrictions>
+    <Category>WorkerDrone</Category>
+  </TrainingRestrictions>
+    <UnitMotion>
+    <PassabilityClass>unrestricted</PassabilityClass>
+    <InstantTurnAngle>0.5</InstantTurnAngle>
+    <Acceleration op="mul">0.15</Acceleration>
+    <WalkSpeed>25.0</WalkSpeed>
+    <RunMultiplier>1.5</RunMultiplier>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/SHA/worker.xml</Actor>
+  </VisualActor>
+</Entity>

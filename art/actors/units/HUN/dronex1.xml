@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="drone">
+      <mesh>units/HUN/dronex1.dae</mesh>
+       <props>
+        <prop actor="props/units/weapons/missil.xml" attachpoint="projectile"/>  
+      </props>
+      <textures>
+        <texture file="structural/terran/HUN_struct.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+    <group>
+    <variant frequency="1" name="alive"/>
+    <variant name="death">
+      <props>
+        <prop attachpoint="garrisoned"/>
+        <prop actor="particle/destruction_smoke_small.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_small.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_small_gray.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

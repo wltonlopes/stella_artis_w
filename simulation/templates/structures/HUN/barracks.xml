@@ -22,12 +22,10 @@
   <Obstruction>
     <Static width="22.0" depth="22.0"/>
   </Obstruction>
-    <Trainer>
+  <Trainer>
     <Entities datatype="tokens">
       units/{civ}/drone_fighter
       units/{civ}/infantry_rifleman_hunter
-      units/{civ}/support_healer
-      units/{civ}/tank_ares
       units/{civ}/infantry_rifleman
     </Entities>
   </Trainer>

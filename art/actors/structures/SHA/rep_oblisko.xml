@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <group>
+    <variant frequency="1" name="rep_barracks">
+      <mesh>structures/SHA/rep_oblisko.dae</mesh>
+      <props>
+        <prop actor="particle/plasma.xml" attachpoint="proj"/>        
+      </props>
+      <textures>
+        <texture file="structural/reptilian_struct.png" name="baseTex"/>
+        <texture file="structural/space_spec.png" name="specTex"/>
+        <texture file="structural/space_norm.png" name="normTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans_parallax_spec.xml</material>
+</actor>  

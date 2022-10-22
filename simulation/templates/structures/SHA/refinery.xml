@@ -59,7 +59,7 @@
   </StatusBars>
   <TerritoryInfluence disable=""/>
   <VisualActor>
-    <Actor>structures/SHA/refinery.xml</Actor>
+    <Actor>structures/SHA/rep_reator.xml</Actor>
     <FoundationActor>structures/fndn_3x3.xml</FoundationActor>
   </VisualActor>
 </Entity>

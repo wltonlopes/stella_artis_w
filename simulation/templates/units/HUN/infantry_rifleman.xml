@@ -19,7 +19,12 @@
       <PreferredClasses datatype="tokens">Human</PreferredClasses>
     </Ranged>
   </Attack>
-    <Cost>
+    <Capturable>
+    <CapturePoints>25</CapturePoints>
+    <RegenRate>0</RegenRate>
+    <GarrisonRegenRate>0</GarrisonRegenRate>
+  </Capturable>
+  <Cost>
     <BuildTime>5</BuildTime>
     <Resources>
       <food>40</food>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_barracks">
+  <Cost>
+    <BuildTime>25</BuildTime>
+    <Resources>
+      <food>125</food>
+      <wood>0</wood>
+      <stone>0</stone>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="22.0" depth="22.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>SHA</Civ>
+    <SpecificName>Castrum</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="22.0" depth="22.0"/>
+  </Obstruction>
+    <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/drone_fighter
+      units/{civ}/infantry_rifleman_hunter
+      units/{civ}/support_healer
+      units/{civ}/tank_ares
+      units/{civ}/infantry_rifleman
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/SHA/barracks.xml</Actor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+  </VisualActor>
+</Entity>

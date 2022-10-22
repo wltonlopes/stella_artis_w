@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="biped/base_minister.xml">
+      <mesh>skeletal/new/m_robe.dae</mesh>
+      <props>
+        <prop actor="props/units/terran/rept_helmet.xml" attachpoint="helmet"/>
+        <prop actor="props/units/terran/rept_cauda.xml" attachpoint="back"/>
+        <prop actor="props/units/weapons/sheath/han_jian_sheath_left_a.xml" attachpoint="sheath_L"/>
+        <prop actor="particle/dust_cav.xml" attachpoint="root"/>
+      </props>
+      <textures>
+        <texture file="units/terran/rept_suit.png" name="baseTex"/>
+        <texture file="units/terran/spec/spacesuit.png" name="specTex"/>
+        <texture file="units/terran/norm/spacesuit.png" name="normTex"/>
+      </textures>
+    </variant>
+
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/attack_melee_minister.xml"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/attack_slaughter.xml"/>
+    <variant file="biped/gather_praise.xml"/>
+    <variant file="biped/death_infantry.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>
